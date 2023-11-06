@@ -1,0 +1,19 @@
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.context-menu{
+    position: fixed;
+    background-color: antiquewhite;
+}
+
+.context-menu-item{
+    width: 100px;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.context-menu-item:hover{
+    background-color: aquamarine;
+}
